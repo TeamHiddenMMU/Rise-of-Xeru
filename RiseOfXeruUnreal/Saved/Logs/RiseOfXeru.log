@@ -1,4 +1,4 @@
-﻿Log file open, 02/07/19 10:08:35
+﻿Log file open, 02/07/19 15:20:06
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: RiseOfXeru
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(910784170) SRandInit(910784170).
+LogInit: Display: RandInit(225133478) SRandInit(225133478).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.298691
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.162343
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  2.155s to configure plugins.
+LogStreaming: Display: Took  0.775s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -188,7 +188,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am ASN-CMD1186 (192.168.117.1:0)
+LogInit: WinSock: I am SamuelReid-PC (100.88.37.9:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -217,811 +217,592 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: 
-LogInit: Base Directory: C:/Unreal/UE4_19_x/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.07-10.08.38:183][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.07-10.08.38:183][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.07-10.08.38:198][  0]LogInit: Computer: ASN-CMD1186
-[2019.02.07-10.08.38:198][  0]LogInit: User: 17105519
-[2019.02.07-10.08.38:198][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.07-10.08.38:198][  0]LogInit: High frequency timer resolution =3.312644 MHz
-[2019.02.07-10.08.38:198][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.02.07-10.08.38:198][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.07-10.08.38:198][  0]LogMemory: Process Physical Memory: 275.30 MB used, 275.30 MB peak
-[2019.02.07-10.08.38:198][  0]LogMemory: Process Virtual Memory: 264.75 MB used, 264.75 MB peak
-[2019.02.07-10.08.38:198][  0]LogMemory: Physical Memory: 4902.63 MB used,  11427.02 MB free, 16329.65 MB total
-[2019.02.07-10.08.38:198][  0]LogMemory: Virtual Memory: 700.53 MB used,  11427.02 MB free, 134217728.00 MB total
-[2019.02.07-10.08.38:227][  0]LogInit: Using OS detected language (en-GB).
-[2019.02.07-10.08.38:228][  0]LogInit: Using OS detected locale (en-GB).
-[2019.02.07-10.08.38:232][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2019.02.07-10.08.38:665][  0]LogStreaming: Display: Took  0.436s to EndInitTextLocalization.
-[2019.02.07-10.08.38:665][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.07-10.08.38:707][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.07-10.08.38:707][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.07-10.08.38:968][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.07-10.08.39:021][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2000' (Feature Level 11_0)
-[2019.02.07-10.08.39:021][  0]LogD3D11RHI:       2007/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.07-10.08.39:024][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.07-10.08.39:024][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.07-10.08.39:024][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.07-10.08.39:034][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.07-10.08.39:034][  0]LogD3D11RHI:     GPU DeviceId: 0xffe (for the marketing name, search the web for "GPU Device Id")
-[2019.02.07-10.08.39:034][  0]LogWindows: EnumDisplayDevices:
-[2019.02.07-10.08.39:035][  0]LogWindows:    0. 'NVIDIA Quadro K2000' (P:1 D:1)
-[2019.02.07-10.08.39:035][  0]LogWindows:    1. 'NVIDIA Quadro K2000' (P:0 D:0)
-[2019.02.07-10.08.39:035][  0]LogWindows:    2. 'NVIDIA Quadro K2000' (P:0 D:0)
-[2019.02.07-10.08.39:036][  0]LogWindows:    3. 'NVIDIA Quadro K2000' (P:0 D:0)
-[2019.02.07-10.08.39:036][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.02.07-10.08.39:036][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2000
-[2019.02.07-10.08.39:036][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.02.07-10.08.39:036][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.02.07-10.08.39:036][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
-[2019.02.07-10.08.39:076][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.02.07-10.08.39:076][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.02.07-10.08.39:076][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.07-10.08.39:098][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.07-10.08.39:143][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Intermediate/Shaders/WorkingDirectory/10132/).
-[2019.02.07-10.08.39:143][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/17105519/AppData/Local/Temp/UnrealShaderWorkingDir/CA9B44CC49A57A35E21173B1A4B4A0E8/'.
-[2019.02.07-10.08.39:476][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.07-10.08.39:493][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.07-10.08.39:510][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.07-10.08.39:528][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.07-10.08.39:545][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.07-10.08.39:562][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.07-10.08.39:580][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.07-10.08.39:598][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.07-10.08.39:607][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.07-10.08.39:621][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.02.07-10.08.39:635][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.02.07-10.08.39:649][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.02.07-10.08.39:663][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2019.02.07-10.08.39:678][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.02.07-10.08.39:697][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.02.07-10.08.39:725][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.02.07-10.08.39:725][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.02.07-10.08.39:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.07-10.08.39:742][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.07-10.08.39:784][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.07-10.08.39:797][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.07-10.08.39:811][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.07-10.08.39:824][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.07-10.08.39:838][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.07-10.08.39:852][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.07-10.08.39:852][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.07-10.08.40:046][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.07-10.08.40:046][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.07-10.08.40:046][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.07-10.08.41:064][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.07-10.08.41:169][  0]LogDerivedDataCache: Loaded boot cache 0.10s 74MB C:/Users/17105519/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.02.07-10.08.41:169][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/17105519/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2019.02.07-10.08.41:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.07-10.08.41:169][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.07-10.08.41:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.07-10.08.41:169][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.07-10.08.41:186][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.07-10.08.41:198][  0]LogDerivedDataCache: Using Local data cache path C:/Users/17105519/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.07-10.08.41:198][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.07-10.08.41:198][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.07-10.08.41:211][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.07-10.08.41:211][  0]LogSlate: Using Freetype 2.6.0
-[2019.02.07-10.08.41:212][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.07-10.08.41:212][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.07-10.08.41:402][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
-[2019.02.07-10.08.41:774][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.07-10.08.41:964][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.07-10.08.41:969][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.07-10.08.41:969][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.07-10.08.41:969][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.07-10.08.41:969][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.02.07-10.08.41:969][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.02.07-10.08.42:023][  0]LogNetVersion: RiseOfXeru , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3116531201)
-[2019.02.07-10.08.42:486][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.063177 seconds
-[2019.02.07-10.08.42:491][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2019.02.07-10.08.42:491][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2019.02.07-10.08.42:492][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.07-10.08.44:597][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.07-10.08.44:645][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.07-10.08.45:284][  0]SourceControl: Source control is disabled
-[2019.02.07-10.08.45:284][  0]SourceControl: Source control is disabled
-[2019.02.07-10.08.45:320][  0]SourceControl: Source control is disabled
-[2019.02.07-10.08.45:356][  0]SourceControl: Source control is disabled
-[2019.02.07-10.08.46:255][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.07-10.08.46:540][  0]LogOcInput: OculusInput pre-init called
-[2019.02.07-10.08.46:726][  0]LogEngine: Initializing Engine...
-[2019.02.07-10.08.46:728][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.07-10.08.46:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.07-10.08.46:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.07-10.08.46:969][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.07-10.08.46:996][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.07-10.08.47:047][  0]LogInit: FAudioDevice initialized.
-[2019.02.07-10.08.47:227][  0]LogDerivedDataCache: Saved boot cache 0.18s 74MB C:/Users/17105519/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.02.07-10.08.47:251][  0]LogInit: Texture streaming: Enabled
-[2019.02.07-10.08.47:282][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.07-10.08.47:322][  0]LogInit: Transaction tracking system initialized
-[2019.02.07-10.08.47:370][  0]BlueprintLog: New page: Editor Load
-[2019.02.07-10.08.47:506][  0]LocalizationService: Localization service is disabled
-[2019.02.07-10.08.47:921][  0]LogConsoleResponse: Display: 
-[2019.02.07-10.08.48:081][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.07-10.08.48:081][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.07-10.08.48:081][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.07-10.08.48:081][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.07-10.08.48:081][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.07-10.08.48:833][  0]LogFileCache: Scanning file cache for directory 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/' took 0.01s
-[2019.02.07-10.08.48:833][  0]SourceControl: Source control is disabled
-[2019.02.07-10.08.48:833][  0]Cmd: MAP LOAD FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.07-10.08.48:833][  0]LightingResults: New page: Lighting Build
-[2019.02.07-10.08.48:838][  0]MapCheck: New page: Map Check
-[2019.02.07-10.08.48:839][  0]LightingResults: New page: Lighting Build
-[2019.02.07-10.08.48:856][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027518231398, Size=4, Default__MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.08.48:858][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027518231398, Size=4
-[2019.02.07-10.08.48:858][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027518231398, Size=4, Default__MainMenu_BP_C Function /Engine/Transient.REINST_MainMenu_BP_C_0:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.08.48:859][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000275182312e8, Size=4, Default__MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.08.48:861][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002752270e890, Size=24, Default__MainMenu_C Function /Game/Game/Maps/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu
-[2019.02.07-10.08.48:862][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002752270e890, Size=24
-[2019.02.07-10.08.48:862][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002752270e890, Size=24, Default__MainMenu_C Function /Engine/Transient.REINST_MainMenu_C_2:ExecuteUbergraph_MainMenu
-[2019.02.07-10.08.48:863][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002752270ddb0, Size=24, Default__MainMenu_C Function /Game/Game/Maps/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu
-[2019.02.07-10.08.48:869][  0]LogAIModule: Creating AISystem for world MainMenu
-[2019.02.07-10.08.48:870][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.07-10.08.48:880][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027518231398, Size=4
-[2019.02.07-10.08.48:880][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002752270e890, Size=24
-[2019.02.07-10.08.48:881][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.07-10.08.48:975][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 94.338ms to complete.
-[2019.02.07-10.08.48:975][  0]LogFileHelpers: Loading map 'MainMenu' took 0.142
-[2019.02.07-10.08.49:119][  0]LogCollectionManager: Loaded 0 collections in 0.003642 seconds
-[2019.02.07-10.08.49:165][  0]LogFileCache: Scanning file cache for directory 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Collections/' took 0.01s
-[2019.02.07-10.08.49:165][  0]LogFileCache: Scanning file cache for directory 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Developers/17105519/Collections/' took 0.01s
-[2019.02.07-10.08.49:165][  0]LogFileCache: Scanning file cache for directory 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Collections/' took 0.01s
-[2019.02.07-10.08.49:165][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.07-10.08.49:175][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2452 classes and 558 folders.
-[2019.02.07-10.08.49:187][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.02.07-10.08.49:280][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.02.07-10.08.49:289][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.02.07-10.08.49:310][  0]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.07-10.08.49:313][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.07-10.08.49:319][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.07-10.08.49:443][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
-[2019.02.07-10.08.49:587][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.02.07-10.08.49:587][  0]LogLoad: (Engine Initialization) Total time: 15.91 seconds
-[2019.02.07-10.08.49:587][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.07-10.08.49:597][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.07-10.08.49:618][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.07-10.08.49:670][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.07-10.08.49:721][  2]LogAssetRegistry: Asset discovery search completed in 8.3418 seconds
-[2019.02.07-10.08.49:724][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.02.07-10.08.49:724][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
-[2019.02.07-10.08.50:622][ 91]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.07-10.11.51:004][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.07-10.11.51:459][ 79]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2019.02.07-10.11.51:752][ 79]LogUObjectGlobals: Created PersistentFrame Addr=0x00000275244a88e0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2019.02.07-10.11.51:753][ 79]LogUObjectGlobals: Created PersistentFrame Addr=0x00000275244a88d8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2019.02.07-10.11.52:160][ 79]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.02.07-10.11.54:584][297]LogSlate: Window 'MainMenu_BP' being destroyed
-[2019.02.07-10.14.42:485][327]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753ab720c8, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.14.47:182][878]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753ab720c8, Size=4
-[2019.02.07-10.14.47:183][878]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa5ee0, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_2:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.14.47:183][878]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa6070, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.14.51:484][391]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa6070, Size=4
-[2019.02.07-10.14.51:484][391]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753ab70980, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_3:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.14.51:485][391]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753ab738e0, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.15.03:017][761]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753ab738e0, Size=4
-[2019.02.07-10.15.03:017][761]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa6ac8, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_4:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.15.03:018][761]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa6220, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.15.07:694][314]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa6220, Size=4
-[2019.02.07-10.15.07:694][314]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa6220, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_5:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.15.07:694][314]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa73c0, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.15.12:617][897]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa73c0, Size=4
-[2019.02.07-10.15.12:617][897]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa73c0, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_6:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.15.12:617][897]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa5470, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.15.27:071][621]LogSlate: Window 'Color Picker' being destroyed
-[2019.02.07-10.18.50:148][272]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa5ee0, Size=4
-[2019.02.07-10.18.50:148][272]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753ab70980, Size=4
-[2019.02.07-10.18.50:148][272]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa6ac8, Size=4
-[2019.02.07-10.18.50:148][272]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa6220, Size=4
-[2019.02.07-10.18.50:148][272]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa73c0, Size=4
-[2019.02.07-10.18.50:149][272]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Maps/MainMenu' took 0.022
-[2019.02.07-10.18.50:151][272]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/Blueprints/MainMenu_BP] ([1] browsable assets)...
-[2019.02.07-10.18.50:151][272]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/MainMenu_BP]
-[2019.02.07-10.18.50:151][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MainMenu_BP" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Blueprints/MainMenu_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2019.02.07-10.18.50:187][272]LogSavePackage: Save=28.89ms
-[2019.02.07-10.18.50:188][272]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/MainMenu_BP_Auto15BAC5FE944334AF0EF6D3594F3A9DB10.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Blueprints/MainMenu_BP_Auto1.uasset'
-[2019.02.07-10.18.50:188][272]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Blueprints/MainMenu_BP_Auto1.uasset
-[2019.02.07-10.18.50:188][272]LogFileHelpers: Auto-saving content packages took 0.038
-[2019.02.07-10.25.43:425][372]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 D:/17105519/Rise-of-Xeru/Assets/MainTextFont.ttf)
-[2019.02.07-10.25.45:430][372]LogSlate: Window 'Font Face Import Options' being destroyed
-[2019.02.07-10.25.45:443][372]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 D:/17105519/Rise-of-Xeru/Assets/TitleTextFont.ttf)
-[2019.02.07-10.25.45:454][372]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.07-10.25.45:455][372]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.07-10.25.45:463][372]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.07-10.25.45:472][372]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.07-10.25.45:477][372]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.07-10.25.45:496][373]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.07-10.25.45:500][373]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.07-10.25.45:505][373]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.07-10.25.45:507][373]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.07-10.25.45:509][373]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.07-10.25.49:948][901]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.02.07-10.26.13:985][745]LogSlate: Window 'Color Picker' being destroyed
-[2019.02.07-10.28.50:223][400]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Maps/MainMenu' took 0.018
-[2019.02.07-10.28.50:225][400]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/Blueprints/MainMenu_BP] ([1] browsable assets)...
-[2019.02.07-10.28.50:225][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/MainMenu_BP]
-[2019.02.07-10.28.50:225][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MainMenu_BP" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Blueprints/MainMenu_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2019.02.07-10.28.50:243][400]LogSavePackage: Save=10.03ms
-[2019.02.07-10.28.50:243][400]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/MainMenu_BP_Auto28C4832AA4AEE2BAE7525E19D6AA8D78C.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Blueprints/MainMenu_BP_Auto2.uasset'
-[2019.02.07-10.28.50:244][400]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Blueprints/MainMenu_BP_Auto2.uasset
-[2019.02.07-10.28.50:245][400]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/Fonts/MainTextFont] ([1] browsable assets)...
-[2019.02.07-10.28.50:245][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Fonts/MainTextFont]
-[2019.02.07-10.28.50:245][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Fonts/MainTextFont" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Fonts/MainTextFont_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2019.02.07-10.28.50:251][400]LogSavePackage: Save=4.89ms
-[2019.02.07-10.28.50:251][400]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/MainTextFont_Auto2D6467D68448B99526AEFB7A815C4AEBB.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Fonts/MainTextFont_Auto2.uasset'
-[2019.02.07-10.28.50:251][400]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Fonts/MainTextFont_Auto2.uasset
-[2019.02.07-10.28.50:252][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Fonts/MainTextFont_Font] ([1] browsable assets)...
-[2019.02.07-10.28.50:257][400]OBJ SavePackage:     Rendered thumbnail for [Font /Game/Game/Fonts/MainTextFont_Font.MainTextFont_Font]
-[2019.02.07-10.28.50:257][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Fonts/MainTextFont_Font]
-[2019.02.07-10.28.50:266][400]LogSavePackage: Save=7.38ms
-[2019.02.07-10.28.50:266][400]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/MainTextFont_Font_Auto2E028EDC24713796D9825A99367521B92.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Fonts/MainTextFont_Font_Auto2.uasset'
-[2019.02.07-10.28.50:267][400]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Fonts/MainTextFont_Font_Auto2.uasset
-[2019.02.07-10.28.50:267][400]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/Fonts/TitleTextFont] ([1] browsable assets)...
-[2019.02.07-10.28.50:267][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Fonts/TitleTextFont]
-[2019.02.07-10.28.50:267][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Fonts/TitleTextFont" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Fonts/TitleTextFont_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2019.02.07-10.28.50:273][400]LogSavePackage: Save=4.31ms
-[2019.02.07-10.28.50:273][400]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/TitleTextFont_Auto22AC773A548765366F698549C8A8BAFEB.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Fonts/TitleTextFont_Auto2.uasset'
-[2019.02.07-10.28.50:273][400]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Fonts/TitleTextFont_Auto2.uasset
-[2019.02.07-10.28.50:274][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Fonts/TitleTextFont_Font] ([1] browsable assets)...
-[2019.02.07-10.28.50:279][400]OBJ SavePackage:     Rendered thumbnail for [Font /Game/Game/Fonts/TitleTextFont_Font.TitleTextFont_Font]
-[2019.02.07-10.28.50:279][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Fonts/TitleTextFont_Font]
-[2019.02.07-10.28.50:287][400]LogSavePackage: Save=7.38ms
-[2019.02.07-10.28.50:288][400]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/TitleTextFont_Font_Auto27E59A81F4C701B59EF4D2791382AF8CC.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Fonts/TitleTextFont_Font_Auto2.uasset'
-[2019.02.07-10.28.50:288][400]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Fonts/TitleTextFont_Font_Auto2.uasset
-[2019.02.07-10.28.50:288][400]LogFileHelpers: Auto-saving content packages took 0.064
-[2019.02.07-10.31.27:517][361]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/17105519/Rise-of-Xeru/Assets/BackgroundTexture.png)
-[2019.02.07-10.31.27:612][361]LogTexture: Display: Building textures: BackgroundTexture (BGRA8, 1132X1715)
-[2019.02.07-10.31.48:404][803]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa5470, Size=4
-[2019.02.07-10.31.48:404][803]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa5470, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_7:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.31.48:405][803]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa5b70, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.31.50:321][ 21]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa5b70, Size=4
-[2019.02.07-10.31.50:321][ 21]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509712b28, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_8:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.31.50:322][ 21]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509711ac0, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.31.56:780][782]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509711ac0, Size=4
-[2019.02.07-10.31.56:780][782]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa6f60, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_9:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.31.56:780][782]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa7558, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.32.02:926][508]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa7558, Size=4
-[2019.02.07-10.32.02:926][508]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa7558, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_10:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.32.02:927][508]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa6180, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.32.08:562][169]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa6180, Size=4
-[2019.02.07-10.32.08:562][169]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509712248, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_11:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.32.08:563][169]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509711c68, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.34.06:350][825]LogSlate: Window 'Color Picker' being destroyed
-[2019.02.07-10.34.44:962][425]LogSlate: Window 'Color Picker' being destroyed
-[2019.02.07-10.35.04:839][800]LogSlate: Window 'Color Picker' being destroyed
-[2019.02.07-10.35.22:686][937]LogEditorTransaction: Undo Set Vector Property
-[2019.02.07-10.35.22:687][937]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509711c68, Size=4
-[2019.02.07-10.35.22:687][937]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4838, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_12:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.35.22:688][937]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4c80, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.35.24:300][119]Cmd: TRANSACTION UNDO
-[2019.02.07-10.35.24:300][119]LogEditorTransaction: Undo Set Vector Property
-[2019.02.07-10.35.24:300][119]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4c80, Size=4
-[2019.02.07-10.35.24:300][119]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4c80, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_13:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.35.24:301][119]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa7b48, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.35.25:661][276]Cmd: TRANSACTION REDO
-[2019.02.07-10.35.25:661][276]LogEditorTransaction: Redo Set Vector Property
-[2019.02.07-10.35.25:662][276]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa7b48, Size=4
-[2019.02.07-10.35.25:662][276]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509711b80, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_14:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.35.25:663][276]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509712cf0, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.36.06:986][208]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509712cf0, Size=4
-[2019.02.07-10.36.06:986][208]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa7b50, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_15:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.36.06:987][208]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4210, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.36.10:587][635]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4210, Size=4
-[2019.02.07-10.36.10:587][635]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4210, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_16:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.36.10:587][635]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4178, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.36.14:847][137]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4178, Size=4
-[2019.02.07-10.36.14:847][137]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4178, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_17:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.36.14:848][137]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa60e8, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.36.39:547][ 73]BlueprintLog: New page: Compile MainMenu_BP
-[2019.02.07-10.36.39:548][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa60e8, Size=4
-[2019.02.07-10.36.39:548][ 73]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa60e8, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_18:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.36.39:552][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000275182312e8, Size=4
-[2019.02.07-10.36.39:552][ 73]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4190, Size=4, Default__MainMenu_BP_C Function /Engine/Transient.REINST_MainMenu_BP_C_19:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.36.39:553][ 73]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4128, Size=4, Default__MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.36.39:573][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa60e8, Size=4
-[2019.02.07-10.36.39:573][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4178, Size=4
-[2019.02.07-10.36.39:573][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4210, Size=4
-[2019.02.07-10.36.39:573][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa7b50, Size=4
-[2019.02.07-10.36.39:573][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509711b80, Size=4
-[2019.02.07-10.36.39:573][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4c80, Size=4
-[2019.02.07-10.36.39:573][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4838, Size=4
-[2019.02.07-10.36.39:573][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509712248, Size=4
-[2019.02.07-10.36.39:573][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa7558, Size=4
-[2019.02.07-10.36.39:573][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa6f60, Size=4
-[2019.02.07-10.36.39:573][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509712b28, Size=4
-[2019.02.07-10.36.39:573][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa5470, Size=4
-[2019.02.07-10.36.40:289][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MainMenu_BP" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Blueprints/MainMenu_BP.uasset" SILENT=true
-[2019.02.07-10.36.40:309][148]LogSavePackage: Save=11.37ms
-[2019.02.07-10.36.40:309][148]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/MainMenu_BP374C8D71498A1D4570A2B590579D6101.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Blueprints/MainMenu_BP.uasset'
-[2019.02.07-10.36.40:315][148]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Blueprints/MainMenu_BP.uasset
-[2019.02.07-10.36.57:363][187]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa5898, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.36.57:489][187]LogSlate: Took 0.036366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2019.02.07-10.38.50:202][668]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Maps/MainMenu' took 0.019
-[2019.02.07-10.38.50:204][668]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/Blueprints/MainMenu_BP] ([1] browsable assets)...
-[2019.02.07-10.38.50:204][668]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/MainMenu_BP]
-[2019.02.07-10.38.50:204][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MainMenu_BP" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Blueprints/MainMenu_BP_Auto3.uasset" SILENT=false AUTOSAVING=true
-[2019.02.07-10.38.50:218][668]LogSavePackage: Save=12.25ms
-[2019.02.07-10.38.50:218][668]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/MainMenu_BP_Auto3FB50B34A476C45A6D26B5D908E08812C.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Blueprints/MainMenu_BP_Auto3.uasset'
-[2019.02.07-10.38.50:219][668]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Blueprints/MainMenu_BP_Auto3.uasset
-[2019.02.07-10.38.50:219][668]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Textures/BackgroundTexture] ([1] browsable assets)...
-[2019.02.07-10.38.50:225][668]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Game/Textures/BackgroundTexture.BackgroundTexture]
-[2019.02.07-10.38.50:225][668]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Textures/BackgroundTexture]
-[2019.02.07-10.38.50:241][668]LogSavePackage: Save=14.72ms
-[2019.02.07-10.38.50:241][668]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/BackgroundTexture_Auto38DD7D14E43CFA927FE2CB68A946C1E56.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Textures/BackgroundTexture_Auto3.uasset'
-[2019.02.07-10.38.50:242][668]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Autosaves/Game/Game/Textures/BackgroundTexture_Auto3.uasset
-[2019.02.07-10.38.50:242][668]LogFileHelpers: Auto-saving content packages took 0.039
-[2019.02.07-10.39.09:924][ 26]BlueprintLog: New page: Compile MainMenu_BP
-[2019.02.07-10.39.09:925][ 26]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa5898, Size=4
-[2019.02.07-10.39.09:925][ 26]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa5898, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_21:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.39.09:928][ 26]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4128, Size=4
-[2019.02.07-10.39.09:928][ 26]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4128, Size=4, MainMenu_BP_C_24 Function /Engine/Transient.REINST_MainMenu_BP_C_22:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.39.09:929][ 26]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa6738, Size=4, Default__MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.39.09:947][ 26]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa5898, Size=4
-[2019.02.07-10.39.10:346][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MainMenu_BP" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Blueprints/MainMenu_BP.uasset" SILENT=true
-[2019.02.07-10.39.10:362][ 71]LogSavePackage: Save=13.19ms
-[2019.02.07-10.39.10:362][ 71]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/MainMenu_BP1F7CC0F8466E66E4DF80C6AC38D02E3F.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Blueprints/MainMenu_BP.uasset'
-[2019.02.07-10.39.10:369][ 71]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Blueprints/MainMenu_BP.uasset
-[2019.02.07-10.39.35:403][ 58]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa6ec8, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.39.41:938][832]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa6ec8, Size=4
-[2019.02.07-10.39.41:938][832]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509712f70, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_24:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.39.41:939][832]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509711958, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.40.01:741][168]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509711958, Size=4
-[2019.02.07-10.40.01:741][168]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa6218, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_25:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.40.01:742][168]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa74e0, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.40.04:659][517]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa74e0, Size=4
-[2019.02.07-10.40.04:659][517]LogUObjectGlobals: Created PersistentFrame Addr=0x00000275097119f8, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_26:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.40.04:660][517]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509710858, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.40.08:928][ 19]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509710858, Size=4
-[2019.02.07-10.40.08:928][ 19]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa5380, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_27:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.40.08:928][ 19]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4448, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.40.15:193][758]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4448, Size=4
-[2019.02.07-10.40.15:193][758]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509712ee8, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_28:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.40.15:194][758]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509710310, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.40.18:827][178]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509710310, Size=4
-[2019.02.07-10.40.18:827][178]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4d30, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_29:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.40.18:828][178]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa6440, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.42.02:160][511]LogSlate: Window 'Color Picker' being destroyed
-[2019.02.07-10.44.33:628][550]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.PlayText' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:629][550]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_1' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:639][551]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_3' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:647][552]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_5' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:656][553]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_7' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:664][554]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_9' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:672][555]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_11' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:680][556]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_13' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:682][556]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_15' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:689][557]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_17' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:697][558]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_19' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:698][558]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_21' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:706][559]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_23' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:713][560]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_25' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:715][560]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_27' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:722][561]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_29' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:724][561]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_31' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:731][562]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_33' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:739][563]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_35' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:740][563]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_37' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:748][564]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_39' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:755][565]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_41' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:757][565]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_43' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:764][566]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_45' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:773][567]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_47' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:780][568]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_49' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:782][568]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_51' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:789][569]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_53' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:797][570]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_55' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:798][570]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_57' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:806][571]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_59' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:814][572]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_61' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:815][572]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_63' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:822][573]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_65' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:824][573]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_67' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:831][574]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_69' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:839][575]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_71' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:848][576]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_73' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:856][577]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_75' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:864][578]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_77' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:872][579]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_79' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:881][580]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_81' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:889][581]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_83' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:897][582]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_85' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:906][583]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_87' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:914][584]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_89' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:922][585]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_91' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:931][586]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_93' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:939][587]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_95' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:947][588]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_97' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:956][589]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_99' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:964][590]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_101' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:973][591]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_103' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:981][592]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_105' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:989][593]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_108' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.33:998][594]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_110' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.34:006][595]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_112' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.34:014][596]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_114' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.34:023][597]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_116' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.34:031][598]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_118' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2019.02.07-10.44.34:039][599]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa6440, Size=4
-[2019.02.07-10.44.34:039][599]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa6440, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_30:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.44.34:040][599]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa5068, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.44.59:471][615]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa5068, Size=4
-[2019.02.07-10.44.59:471][615]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa5068, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_31:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.44.59:472][615]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4e30, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.45.25:281][664]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4e30, Size=4
-[2019.02.07-10.45.25:281][664]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509710650, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_32:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.45.25:282][664]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027509711af8, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.46.16:916][838]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509711af8, Size=4
-[2019.02.07-10.46.16:916][838]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa51b8, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_33:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.46.16:917][838]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa5550, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.46.23:049][542]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa5550, Size=4
-[2019.02.07-10.46.23:049][542]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa5550, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_34:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.46.23:050][542]LogUObjectGlobals: Created PersistentFrame Addr=0x000002753daa4330, Size=4, Default__SKEL_MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.SKEL_MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.47.31:850][753]BlueprintLog: New page: Compile MainMenu_BP
-[2019.02.07-10.47.31:852][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4330, Size=4
-[2019.02.07-10.47.31:852][753]LogUObjectGlobals: Created PersistentFrame Addr=0x00000275338ef250, Size=4, Default__SKEL_MainMenu_BP_C Function /Engine/Transient.REINST_SKEL_MainMenu_BP_C_35:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.47.31:856][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa6738, Size=4
-[2019.02.07-10.47.31:856][753]LogUObjectGlobals: Created PersistentFrame Addr=0x00000275338ed1c8, Size=4, MainMenu_BP_C_43 Function /Engine/Transient.REINST_MainMenu_BP_C_36:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.47.31:857][753]LogUObjectGlobals: Created PersistentFrame Addr=0x00000275338ef360, Size=4, Default__MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
-[2019.02.07-10.47.31:875][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000275338ef250, Size=4
-[2019.02.07-10.47.31:875][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa5550, Size=4
-[2019.02.07-10.47.31:875][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa51b8, Size=4
-[2019.02.07-10.47.31:875][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509710650, Size=4
-[2019.02.07-10.47.31:875][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa5068, Size=4
-[2019.02.07-10.47.31:875][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa6440, Size=4
-[2019.02.07-10.47.31:875][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4d30, Size=4
-[2019.02.07-10.47.31:875][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509712ee8, Size=4
-[2019.02.07-10.47.31:875][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa5380, Size=4
-[2019.02.07-10.47.31:875][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000275097119f8, Size=4
-[2019.02.07-10.47.31:875][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa6218, Size=4
-[2019.02.07-10.47.31:875][753]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027509712f70, Size=4
-[2019.02.07-10.47.32:452][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MainMenu_BP" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Blueprints/MainMenu_BP.uasset" SILENT=true
-[2019.02.07-10.47.32:475][803]LogSavePackage: Save=16.09ms
-[2019.02.07-10.47.32:475][803]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/MainMenu_BP8831D72042014301C8EA35AD44CC4E9C.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Blueprints/MainMenu_BP.uasset'
-[2019.02.07-10.47.32:477][803]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Blueprints/MainMenu_BP.uasset
-[2019.02.07-10.47.33:806][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Fonts/MainTextFont" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Fonts/MainTextFont.uasset" SILENT=true
-[2019.02.07-10.47.33:813][955]LogSavePackage: Save=5.37ms
-[2019.02.07-10.47.33:813][955]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/MainTextFont28857A9842E4AF700739B2A90FB4A72C.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Fonts/MainTextFont.uasset'
-[2019.02.07-10.47.33:820][955]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Fonts/MainTextFont.uasset
-[2019.02.07-10.47.33:833][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Fonts/MainTextFont_Font" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Fonts/MainTextFont_Font.uasset" SILENT=true
-[2019.02.07-10.47.33:842][955]LogSavePackage: Save=7.09ms
-[2019.02.07-10.47.33:842][955]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/MainTextFont_FontA9AAF7F3454C3AEC27591DB11B6D756A.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Fonts/MainTextFont_Font.uasset'
-[2019.02.07-10.47.33:848][955]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Fonts/MainTextFont_Font.uasset
-[2019.02.07-10.47.33:852][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Fonts/TitleTextFont" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Fonts/TitleTextFont.uasset" SILENT=true
-[2019.02.07-10.47.33:858][955]LogSavePackage: Save=4.70ms
-[2019.02.07-10.47.33:858][955]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/TitleTextFont686A864543C202C7D1B085ACC543BDC7.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Fonts/TitleTextFont.uasset'
-[2019.02.07-10.47.33:862][955]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Fonts/TitleTextFont.uasset
-[2019.02.07-10.47.33:873][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Fonts/TitleTextFont_Font" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Fonts/TitleTextFont_Font.uasset" SILENT=true
-[2019.02.07-10.47.33:882][955]LogSavePackage: Save=7.49ms
-[2019.02.07-10.47.33:882][955]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/TitleTextFont_Font7CDD982D4DF0A009D6DDFA815BB6A837.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Fonts/TitleTextFont_Font.uasset'
-[2019.02.07-10.47.33:886][955]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Fonts/TitleTextFont_Font.uasset
-[2019.02.07-10.47.33:898][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Textures/BackgroundTexture" FILE="D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Textures/BackgroundTexture.uasset" SILENT=true
-[2019.02.07-10.47.34:111][955]LogSavePackage: Save=210.98ms
-[2019.02.07-10.47.34:111][955]LogSavePackage: Moving 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/BackgroundTexture5BF8977847989A224AD718815BDE5709.tmp' to 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Textures/BackgroundTexture.uasset'
-[2019.02.07-10.47.34:115][955]LogSavePackage: Display: Finished SavePackage D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Textures/BackgroundTexture.uasset
-[2019.02.07-10.47.34:769][ 18]LogSlate: Window 'RiseOfXeru - Unreal Editor' being destroyed
-[2019.02.07-10.47.34:935][ 19]Cmd: QUIT_EDITOR
-[2019.02.07-10.47.34:958][ 19]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.07-10.47.34:971][ 19]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.02.07-10.47.34:971][ 19]LogExit: Preparing to exit.
-[2019.02.07-10.47.35:431][ 19]LogExit: Editor shut down
-[2019.02.07-10.47.35:444][ 19]LogExit: Transaction tracking system shut down
-[2019.02.07-10.47.35:444][ 19]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4190, Size=4
-[2019.02.07-10.47.35:450][ 19]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002752270ddb0, Size=24
-[2019.02.07-10.47.35:450][ 19]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000275338ef360, Size=4
-[2019.02.07-10.47.35:451][ 19]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002753daa4128, Size=4
-[2019.02.07-10.47.35:452][ 19]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000275244a88e0, Size=4
-[2019.02.07-10.47.35:452][ 19]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000275244a88d8, Size=4
-[2019.02.07-10.47.35:453][ 19]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000275338ed1c8, Size=4
-[2019.02.07-10.47.35:649][ 19]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2019.02.07-10.47.35:649][ 19]LogDirectoryWatcher: A directory notification for 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/' was aborted.
-[2019.02.07-10.47.35:649][ 19]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2019.02.07-10.47.35:649][ 19]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2019.02.07-10.47.35:649][ 19]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2019.02.07-10.47.35:649][ 19]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2019.02.07-10.47.35:649][ 19]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2019.02.07-10.47.35:649][ 19]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2019.02.07-10.47.35:744][ 19]LogExit: Object subsystem successfully closed.
-[2019.02.07-10.47.35:770][ 19]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.02.07-10.47.35:774][ 19]LogD3D11RHI: Shutdown
-[2019.02.07-10.47.35:774][ 19]LogD3D11RHI: CleanupD3DDevice
-[2019.02.07-10.47.35:777][ 19]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.02.07-10.47.35:818][ 19]LogModuleManager: Shutting down and abandoning module SequencerWidgets (578)
-[2019.02.07-10.47.35:818][ 19]LogModuleManager: Shutting down and abandoning module BlueprintGraph (576)
-[2019.02.07-10.47.35:818][ 19]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
-[2019.02.07-10.47.35:818][ 19]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
-[2019.02.07-10.47.35:818][ 19]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
-[2019.02.07-10.47.35:818][ 19]LogDirectoryWatcher: A directory notification for 'C:/Unreal/UE4_19_x/FeaturePacks/' was aborted.
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
-[2019.02.07-10.47.35:820][ 19]LogDirectoryWatcher: A directory notification for 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Collections/' was aborted.
-[2019.02.07-10.47.35:820][ 19]LogDirectoryWatcher: A directory notification for 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Content/Developers/17105519/Collections/' was aborted.
-[2019.02.07-10.47.35:820][ 19]LogDirectoryWatcher: A directory notification for 'D:/17105519/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Collections/' was aborted.
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module BspMode (546)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
-[2019.02.07-10.47.35:820][ 19]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module SessionServices (500)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
-[2019.02.07-10.47.35:821][ 19]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
-[2019.02.07-10.47.35:822][ 19]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
-[2019.02.07-10.47.35:822][ 19]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
-[2019.02.07-10.47.35:822][ 19]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
-[2019.02.07-10.47.35:822][ 19]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
-[2019.02.07-10.47.35:822][ 19]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
-[2019.02.07-10.47.36:281][ 19]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
-[2019.02.07-10.47.36:281][ 19]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
-[2019.02.07-10.47.36:281][ 19]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
-[2019.02.07-10.47.36:281][ 19]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
-[2019.02.07-10.47.36:281][ 19]LogModuleManager: Shutting down and abandoning module MergeActors (468)
-[2019.02.07-10.47.36:281][ 19]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module XmlParser (456)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module Blutility (454)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
-[2019.02.07-10.47.36:282][ 19]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
-[2019.02.07-10.47.36:348][ 19]LogModuleManager: Shutting down and abandoning module AutomationController (434)
-[2019.02.07-10.47.36:348][ 19]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
-[2019.02.07-10.47.36:348][ 19]LogModuleManager: Shutting down and abandoning module Layers (430)
-[2019.02.07-10.47.36:348][ 19]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
-[2019.02.07-10.47.36:348][ 19]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
-[2019.02.07-10.47.36:348][ 19]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
-[2019.02.07-10.47.36:348][ 19]LogModuleManager: Shutting down and abandoning module Persona (422)
-[2019.02.07-10.47.36:348][ 19]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
-[2019.02.07-10.47.36:348][ 19]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
-[2019.02.07-10.47.36:348][ 19]LogModuleManager: Shutting down and abandoning module Kismet (416)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module Toolbox (410)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module OutputLog (404)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module GammaUI (402)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module Documentation (400)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module MovieScene (396)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module PortalServices (388)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module AIModule (382)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
-[2019.02.07-10.47.36:353][ 19]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module OculusInput (364)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module CableComponent (358)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
-[2019.02.07-10.47.36:531][ 19]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module SourceControl (303)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2019.02.07-10.47.36:534][ 19]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2019.02.07-10.47.36:635][ 19]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2019.02.07-10.47.36:736][ 19]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2019.02.07-10.47.36:736][ 19]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2019.02.07-10.47.36:736][ 19]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2019.02.07-10.47.36:736][ 19]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2019.02.07-10.47.36:736][ 19]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2019.02.07-10.47.36:736][ 19]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2019.02.07-10.47.36:737][ 19]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2019.02.07-10.47.36:737][ 19]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2019.02.07-10.47.36:737][ 19]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2019.02.07-10.47.36:737][ 19]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2019.02.07-10.47.36:737][ 19]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2019.02.07-10.47.36:738][ 19]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2019.02.07-10.47.36:738][ 19]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2019.02.07-10.47.36:738][ 19]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2019.02.07-10.47.36:738][ 19]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2019.02.07-10.47.36:908][ 19]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2019.02.07-10.47.36:908][ 19]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2019.02.07-10.47.36:908][ 19]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2019.02.07-10.47.36:911][ 19]LogModuleManager: Shutting down and abandoning module Media (233)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2019.02.07-10.47.36:917][ 19]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2019.02.07-10.47.36:918][ 19]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module Core (178)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2019.02.07-10.47.36:919][ 19]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2019.02.07-10.47.36:921][ 19]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2019.02.07-10.47.36:994][ 19]LogDerivedDataCache: Shutdown
-[2019.02.07-10.47.36:994][ 19]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2019.02.07-10.47.36:994][ 19]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2019.02.07-10.47.36:994][ 19]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2019.02.07-10.47.36:994][ 19]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2019.02.07-10.47.36:994][ 19]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2019.02.07-10.47.36:994][ 19]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2019.02.07-10.47.36:994][ 19]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2019.02.07-10.47.36:994][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2019.02.07-10.47.36:994][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2019.02.07-10.47.36:994][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2019.02.07-10.47.36:994][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2019.02.07-10.47.36:995][ 19]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2019.02.07-10.47.36:996][ 19]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2019.02.07-10.47.36:996][ 19]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.02.07-10.47.36:996][ 19]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A2F17A3-4E97-0C4B-3C01-9FB0F4BCA712%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=a85f80fe42438fb7448695b8935d449e%7C%7Cc8cc898c-f47a-43c4-9f19-4b0501d70240&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.02.07-10.47.37:012][ 19]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2019.02.07-10.47.37:014][ 19]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.02.07-10.47.37:014][ 19]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.02.07-10.47.37:014][ 19]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.02.07-10.47.37:014][ 19]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.02.07-10.47.37:014][ 19]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.02.07-10.47.37:014][ 19]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.02.07-10.47.37:014][ 19]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.02.07-10.47.37:016][ 19]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.02.07-10.47.37:016][ 19]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.02.07-10.47.37:016][ 19]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.02.07-10.47.37:016][ 19]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.02.07-10.47.37:016][ 19]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.02.07-10.47.37:016][ 19]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.02.07-10.47.37:016][ 19]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.02.07-10.47.37:016][ 19]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.02.07-10.47.37:016][ 19]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.02.07-10.47.37:016][ 19]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.02.07-10.47.37:016][ 19]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.02.07-10.47.37:021][ 19]LogExit: Exiting.
-[2019.02.07-10.47.37:035][ 19]Log file closed, 02/07/19 10:47:37
+[2019.02.07-15.20.07:491][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.07-15.20.07:491][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.07-15.20.07:499][  0]LogInit: Computer: SAMUELREID-PC
+[2019.02.07-15.20.07:499][  0]LogInit: User: Administrator
+[2019.02.07-15.20.07:499][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.07-15.20.07:499][  0]LogInit: High frequency timer resolution =3.323613 MHz
+[2019.02.07-15.20.07:499][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.02.07-15.20.07:499][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.07-15.20.07:499][  0]LogMemory: Process Physical Memory: 274.27 MB used, 274.27 MB peak
+[2019.02.07-15.20.07:499][  0]LogMemory: Process Virtual Memory: 266.33 MB used, 266.33 MB peak
+[2019.02.07-15.20.07:499][  0]LogMemory: Physical Memory: 4623.75 MB used,  3528.34 MB free, 8152.09 MB total
+[2019.02.07-15.20.07:499][  0]LogMemory: Virtual Memory: 635.82 MB used,  3528.34 MB free, 8388608.00 MB total
+[2019.02.07-15.20.07:518][  0]LogInit: Using OS detected language (en-GB).
+[2019.02.07-15.20.07:518][  0]LogInit: Using OS detected locale (en-GB).
+[2019.02.07-15.20.07:521][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.02.07-15.20.07:957][  0]LogStreaming: Display: Took  0.439s to EndInitTextLocalization.
+[2019.02.07-15.20.07:958][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2019.02.07-15.20.07:958][  0]LogWindows: File 'shcore.dll' does not exist
+[2019.02.07-15.20.07:958][  0]LogInit: Setting process to DPI aware
+[2019.02.07-15.20.07:961][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2019.02.07-15.20.07:961][  0]LogWindows: File 'shcore.dll' does not exist
+[2019.02.07-15.20.07:961][  0]LogInit: Setting process to DPI aware
+[2019.02.07-15.20.07:981][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.07-15.20.07:981][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.07-15.20.08:161][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.07-15.20.08:194][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 Ti' (Feature Level 11_0)
+[2019.02.07-15.20.08:194][  0]LogD3D11RHI:       1970/0/3820 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.07-15.20.08:194][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.07-15.20.08:198][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.07-15.20.08:198][  0]LogD3D11RHI:     GPU DeviceId: 0x1183 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.07-15.20.08:198][  0]LogWindows: EnumDisplayDevices:
+[2019.02.07-15.20.08:199][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 Ti' (P:1 D:1)
+[2019.02.07-15.20.08:199][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2019.02.07-15.20.08:199][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2019.02.07-15.20.08:199][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2019.02.07-15.20.08:199][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2019.02.07-15.20.08:199][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.02.07-15.20.08:199][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.02.07-15.20.08:199][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.02.07-15.20.08:199][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 Ti
+[2019.02.07-15.20.08:199][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.02.07-15.20.08:199][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.02.07-15.20.08:199][  0]LogRHI: Texture pool is 1379 MB (70% of 1970 MB)
+[2019.02.07-15.20.08:214][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.02.07-15.20.08:214][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.02.07-15.20.08:214][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.07-15.20.08:232][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.07-15.20.08:233][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Intermediate/Shaders/WorkingDirectory/2360/).
+[2019.02.07-15.20.08:234][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrator/AppData/Local/Temp/UnrealShaderWorkingDir/1C433E2341A7D3A5916B47B42E052D78/'.
+[2019.02.07-15.20.08:395][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.07-15.20.08:409][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.07-15.20.08:424][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.07-15.20.08:439][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.07-15.20.08:454][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.07-15.20.08:469][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.07-15.20.08:483][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.07-15.20.08:498][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.07-15.20.08:504][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.07-15.20.08:518][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.02.07-15.20.08:532][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.02.07-15.20.08:545][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.02.07-15.20.08:558][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.02.07-15.20.08:572][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.02.07-15.20.08:585][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.02.07-15.20.08:612][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.02.07-15.20.08:612][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.02.07-15.20.08:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-15.20.08:627][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.07-15.20.08:663][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.07-15.20.08:676][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.07-15.20.08:689][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.07-15.20.08:702][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.07-15.20.08:714][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.07-15.20.08:727][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.07-15.20.08:727][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.07-15.20.08:805][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.07-15.20.08:805][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.07-15.20.08:805][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.07-15.20.09:588][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.07-15.20.09:662][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.02.07-15.20.09:662][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.02.07-15.20.09:662][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.07-15.20.09:662][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.07-15.20.09:663][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.07-15.20.09:663][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.07-15.20.09:680][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.07-15.20.09:692][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.07-15.20.09:692][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.07-15.20.09:692][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.07-15.20.09:705][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.07-15.20.09:705][  0]LogSlate: Using Freetype 2.6.0
+[2019.02.07-15.20.09:706][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.07-15.20.09:706][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.07-15.20.09:809][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2019.02.07-15.20.10:164][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.07-15.20.10:309][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.07-15.20.10:311][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.07-15.20.10:311][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.07-15.20.10:311][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.07-15.20.10:311][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.02.07-15.20.10:311][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.02.07-15.20.10:336][  0]LogNetVersion: RiseOfXeru , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3116531201)
+[2019.02.07-15.20.10:844][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.124262 seconds
+[2019.02.07-15.20.10:849][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.02.07-15.20.10:849][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.02.07-15.20.10:849][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.07-15.20.12:590][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.07-15.20.12:613][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.07-15.20.12:876][  0]SourceControl: Source control is disabled
+[2019.02.07-15.20.12:876][  0]SourceControl: Source control is disabled
+[2019.02.07-15.20.12:891][  0]SourceControl: Source control is disabled
+[2019.02.07-15.20.12:902][  0]SourceControl: Source control is disabled
+[2019.02.07-15.20.13:289][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.07-15.20.13:415][  0]LogOcInput: OculusInput pre-init called
+[2019.02.07-15.20.13:511][  0]LogEngine: Initializing Engine...
+[2019.02.07-15.20.13:512][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.07-15.20.13:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.07-15.20.13:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.07-15.20.13:808][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.07-15.20.13:821][  0]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.07-15.20.13:832][  0]LogInit: FAudioDevice initialized.
+[2019.02.07-15.20.13:954][  0]LogDerivedDataCache: Saved boot cache 0.12s 74MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.02.07-15.20.13:965][  0]LogInit: Texture streaming: Enabled
+[2019.02.07-15.20.13:983][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.07-15.20.13:994][  0]LogInit: Transaction tracking system initialized
+[2019.02.07-15.20.14:016][  0]BlueprintLog: New page: Editor Load
+[2019.02.07-15.20.14:080][  0]LocalizationService: Localization service is disabled
+[2019.02.07-15.20.14:168][  0]LogConsoleResponse: Display: 
+[2019.02.07-15.20.14:411][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.07-15.20.14:411][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.07-15.20.14:411][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.07-15.20.14:411][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.07-15.20.14:411][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.07-15.20.14:727][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/' took 0.01s
+[2019.02.07-15.20.14:727][  0]SourceControl: Source control is disabled
+[2019.02.07-15.20.14:728][  0]Cmd: MAP LOAD FILE="D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.07-15.20.14:729][  0]LightingResults: New page: Lighting Build
+[2019.02.07-15.20.14:731][  0]MapCheck: New page: Map Check
+[2019.02.07-15.20.14:731][  0]LightingResults: New page: Lighting Build
+[2019.02.07-15.20.14:867][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000467311f0, Size=4, Default__MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
+[2019.02.07-15.20.14:874][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000467311f0, Size=4
+[2019.02.07-15.20.14:874][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000467311f0, Size=4, Default__MainMenu_BP_C Function /Engine/Transient.REINST_MainMenu_BP_C_0:ExecuteUbergraph_MainMenu_BP
+[2019.02.07-15.20.14:877][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000046731b98, Size=4, Default__MainMenu_BP_C Function /Game/Game/Blueprints/MainMenu_BP.MainMenu_BP_C:ExecuteUbergraph_MainMenu_BP
+[2019.02.07-15.20.14:880][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000025638f40, Size=24, Default__MainMenu_C Function /Game/Game/Maps/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu
+[2019.02.07-15.20.14:882][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000025638f40, Size=24
+[2019.02.07-15.20.14:882][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000025638f40, Size=24, Default__MainMenu_C Function /Engine/Transient.REINST_MainMenu_C_2:ExecuteUbergraph_MainMenu
+[2019.02.07-15.20.14:884][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000254f7fa0, Size=24, Default__MainMenu_C Function /Game/Game/Maps/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu
+[2019.02.07-15.20.14:953][  0]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.07-15.20.14:955][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.07-15.20.14:966][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000467311f0, Size=4
+[2019.02.07-15.20.14:966][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000025638f40, Size=24
+[2019.02.07-15.20.14:967][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.07-15.20.15:006][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39.215ms to complete.
+[2019.02.07-15.20.15:006][  0]LogFileHelpers: Loading map 'MainMenu' took 0.279
+[2019.02.07-15.20.15:194][  0]LogCollectionManager: Loaded 0 collections in 0.004998 seconds
+[2019.02.07-15.20.15:244][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Collections/' took 0.01s
+[2019.02.07-15.20.15:244][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/Developers/Administrator/Collections/' took 0.01s
+[2019.02.07-15.20.15:244][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/Collections/' took 0.01s
+[2019.02.07-15.20.15:244][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.07-15.20.15:256][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2452 classes and 558 folders.
+[2019.02.07-15.20.15:267][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.07-15.20.15:396][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.07-15.20.15:412][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.07-15.20.15:586][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.07-15.20.15:589][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.07-15.20.15:603][  0]LogSlate: Took 0.002055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.07-15.20.15:735][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.07-15.20.15:956][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.07-15.20.15:956][  0]LogLoad: (Engine Initialization) Total time: 10.47 seconds
+[2019.02.07-15.20.15:956][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.07-15.20.16:315][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.07-15.20.16:359][  0]LogSlate: Took 0.001543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.07-15.20.16:646][  1]LogAssetRegistry: Asset discovery search completed in 6.8572 seconds
+[2019.02.07-15.20.16:648][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.02.07-15.20.16:648][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
+[2019.02.07-15.20.23:414][230]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-15.20.24:604][359]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-15.20.25:700][359]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.02.07-15.20.25:879][360]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RiseOfXeru
+[2019.02.07-15.20.25:879][360]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2019.02.07-15.20.25:879][360]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2019.02.07-15.20.25:879][360]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2019.02.07-15.20.25:879][360]LogTemp: BranchPath = SAMUELREID-PC/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = SAMUELREID-PC/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2019.02.07-15.20.25:879][360]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Administrator\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.02.07-15.20.39:362][100]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.02.07-15.20.39:467][101]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RiseOfXeru
+[2019.02.07-15.20.39:467][101]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2019.02.07-15.20.39:467][101]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2019.02.07-15.20.39:467][101]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2019.02.07-15.20.39:467][101]LogTemp: BranchPath = SAMUELREID-PC/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = SAMUELREID-PC/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2019.02.07-15.20.39:467][101]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Administrator\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.02.07-15.20.45:500][322]LogSlate: Window 'Android SDK License' being destroyed
+[2019.02.07-15.20.51:651][449]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-15.21.09:883][881]LogSlate: Window 'Project Settings' being destroyed
+[2019.02.07-15.21.09:886][881]LogSlate: Window 'Project Settings' being destroyed
+[2019.02.07-15.21.12:563][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-15.21.12:638][  0]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.07-15.21.40:146][475]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-15.21.44:391][982]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-15.22.04:609][  4]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.02.07-15.22.04:612][  4]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.02.07-15.22.05:501][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-15.22.07:052][273]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-15.22.07:912][273]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.02.07-15.22.08:013][274]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RiseOfXeru
+[2019.02.07-15.22.08:013][274]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2019.02.07-15.22.08:013][274]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2019.02.07-15.22.08:013][274]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2019.02.07-15.22.08:013][274]LogTemp: BranchPath = SAMUELREID-PC/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = SAMUELREID-PC/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2019.02.07-15.22.08:013][274]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Administrator\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.02.07-15.22.48:934][229]LogSlate: Window 'Project Settings' being destroyed
+[2019.02.07-15.22.48:937][229]LogSlate: Window 'Project Settings' being destroyed
+[2019.02.07-15.22.49:622][306]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-15.22.50:941][463]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-15.23.14:326][ 68]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.02.07-15.23.14:329][ 68]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.02.07-15.23.17:175][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-15.23.20:064][726]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.07-15.23.20:460][726]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.02.07-15.23.20:828][726]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000016959e50, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.02.07-15.23.20:829][726]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000169599c8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.02.07-15.23.21:363][726]LogSlate: Took 0.001540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.07-15.23.23:419][863]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.07-15.24.06:041][788]LogSlate: Window 'MainMenu_BP' being destroyed
+[2019.02.07-15.24.06:266][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-15.24.49:114][841]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.07-15.25.10:779][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-15.25.11:437][442]EditorErrors: New page: Actor attachment
+[2019.02.07-15.25.18:454][263]LogSlate: Took 0.002367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.07-15.25.47:177][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-15.25.51:295][171]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.07-15.25.52:568][171]LogSlate: Window 'Save Content' being destroyed
+[2019.02.07-15.25.54:182][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-15.25.54:265][358]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.07-15.25.55:283][358]LogSlate: Window 'Save Content' being destroyed
+[2019.02.07-15.25.55:288][358]LogPlayLevel: Warning: PIE failed because map save was canceled
+[2019.02.07-15.25.55:289][358]PIE: Warning: PIE failed because map save was canceled
+[2019.02.07-15.25.55:295][358]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-15.25.56:942][533]LogSlate: Window 'Message Log' being destroyed
+[2019.02.07-15.25.56:946][533]LogSlate: Window 'Message Log' being destroyed
+[2019.02.07-15.25.57:540][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-15.25.57:615][606]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2019.02.07-15.25.58:515][606]LogSlate: Window 'Save Content' being destroyed
+[2019.02.07-15.25.58:532][606]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-15.25.58:612][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Maps/MainMenu" FILE="D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.07-15.25.59:060][606]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000254f7fa0, Size=24
+[2019.02.07-15.25.59:060][606]LogUObjectGlobals: Created PersistentFrame Addr=0x000000006f7a84f0, Size=24, Default__MainMenu_C Function /Engine/Transient.REINST_MainMenu_C_20:ExecuteUbergraph_MainMenu
+[2019.02.07-15.25.59:062][606]LogUObjectGlobals: Created PersistentFrame Addr=0x000000006f7a95b8, Size=24, Default__MainMenu_C Function /Game/Game/Maps/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu
+[2019.02.07-15.25.59:204][606]LogSavePackage: Save=155.01ms
+[2019.02.07-15.25.59:204][606]LogSavePackage: Moving 'D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Saved/MainMenu0054421E4ACA11EF4A80F1AA087790CD.tmp' to 'D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Maps/MainMenu.umap'
+[2019.02.07-15.25.59:206][606]LogSavePackage: Display: Finished SavePackage D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Maps/MainMenu.umap
+[2019.02.07-15.25.59:221][606]LogFileHelpers: Saving map 'MainMenu' took 0.677
+[2019.02.07-15.26.24:563][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-15.26.25:123][ 41]LogEditorActor: Deleted Actor: CameraActor
+[2019.02.07-15.26.25:140][ 41]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000006f7a84f0, Size=24
+[2019.02.07-15.26.25:141][ 41]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.02.07-15.26.25:830][123]LogEditorViewport: Clicking on Actor (LMB): Player_BP_C (Player_BP)
+[2019.02.07-15.26.26:679][211]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-15.26.28:000][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Maps/MainMenu" FILE="D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.07-15.26.28:022][367]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000006f7a95b8, Size=24
+[2019.02.07-15.26.28:022][367]LogUObjectGlobals: Created PersistentFrame Addr=0x000000006c438c58, Size=24, Default__MainMenu_C Function /Engine/Transient.REINST_MainMenu_C_24:ExecuteUbergraph_MainMenu
+[2019.02.07-15.26.28:024][367]LogUObjectGlobals: Created PersistentFrame Addr=0x000000006c43b0a0, Size=24, Default__MainMenu_C Function /Game/Game/Maps/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu
+[2019.02.07-15.26.28:111][367]LogSavePackage: Save=92.64ms
+[2019.02.07-15.26.28:111][367]LogSavePackage: Moving 'D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Saved/MainMenu426716D8430DCC6BDFF54D9B71D3D49F.tmp' to 'D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Maps/MainMenu.umap'
+[2019.02.07-15.26.28:112][367]LogSavePackage: Display: Finished SavePackage D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/Game/Maps/MainMenu.umap
+[2019.02.07-15.26.29:219][496]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-15.26.29:311][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000006c438c58, Size=24
+[2019.02.07-15.26.29:394][505]LogSlate: Window 'RiseOfXeru - Unreal Editor' being destroyed
+[2019.02.07-15.26.29:554][506]Cmd: QUIT_EDITOR
+[2019.02.07-15.26.29:586][506]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.02.07-15.26.29:586][506]LogExit: Preparing to exit.
+[2019.02.07-15.26.30:691][506]LogExit: Editor shut down
+[2019.02.07-15.26.30:693][506]LogExit: Transaction tracking system shut down
+[2019.02.07-15.26.30:693][506]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000046731b98, Size=4
+[2019.02.07-15.26.30:698][506]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000006c43b0a0, Size=24
+[2019.02.07-15.26.30:700][506]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000016959e50, Size=4
+[2019.02.07-15.26.30:700][506]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000169599c8, Size=4
+[2019.02.07-15.26.30:812][506]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.02.07-15.26.30:812][506]LogDirectoryWatcher: A directory notification for 'D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/' was aborted.
+[2019.02.07-15.26.30:812][506]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2019.02.07-15.26.30:812][506]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2019.02.07-15.26.30:812][506]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2019.02.07-15.26.30:812][506]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2019.02.07-15.26.30:812][506]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2019.02.07-15.26.30:813][506]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2019.02.07-15.26.30:908][506]LogExit: Object subsystem successfully closed.
+[2019.02.07-15.26.30:924][506]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.02.07-15.26.30:927][506]LogD3D11RHI: Shutdown
+[2019.02.07-15.26.30:927][506]LogD3D11RHI: CleanupD3DDevice
+[2019.02.07-15.26.30:928][506]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.02.07-15.26.30:941][506]LogModuleManager: Shutting down and abandoning module SequencerWidgets (580)
+[2019.02.07-15.26.30:941][506]LogModuleManager: Shutting down and abandoning module BlueprintGraph (578)
+[2019.02.07-15.26.30:941][506]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (576)
+[2019.02.07-15.26.30:941][506]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
+[2019.02.07-15.26.30:941][506]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2019.02.07-15.26.30:941][506]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2019.02.07-15.26.30:943][506]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2019.02.07-15.26.30:944][506]LogDirectoryWatcher: A directory notification for 'D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/Collections/' was aborted.
+[2019.02.07-15.26.30:944][506]LogDirectoryWatcher: A directory notification for 'D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Content/Developers/Administrator/Collections/' was aborted.
+[2019.02.07-15.26.30:944][506]LogDirectoryWatcher: A directory notification for 'D:/GitHub/Rise-of-Xeru/RiseOfXeruUnreal/Saved/Collections/' was aborted.
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2019.02.07-15.26.30:944][506]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2019.02.07-15.26.30:945][506]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2019.02.07-15.26.30:946][506]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2019.02.07-15.26.30:946][506]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2019.02.07-15.26.30:946][506]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2019.02.07-15.26.31:346][506]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2019.02.07-15.26.31:347][506]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2019.02.07-15.26.31:347][506]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2019.02.07-15.26.31:347][506]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2019.02.07-15.26.31:347][506]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2019.02.07-15.26.31:347][506]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2019.02.07-15.26.31:347][506]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2019.02.07-15.26.31:347][506]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2019.02.07-15.26.31:397][506]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2019.02.07-15.26.31:397][506]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2019.02.07-15.26.31:397][506]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2019.02.07-15.26.31:397][506]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2019.02.07-15.26.31:397][506]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2019.02.07-15.26.31:397][506]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2019.02.07-15.26.31:397][506]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2019.02.07-15.26.31:397][506]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2019.02.07-15.26.31:397][506]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2019.02.07-15.26.31:397][506]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2019.02.07-15.26.31:407][506]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2019.02.07-15.26.31:407][506]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2019.02.07-15.26.31:407][506]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2019.02.07-15.26.31:408][506]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
+[2019.02.07-15.26.31:409][506]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
+[2019.02.07-15.26.31:414][506]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module OculusInput (364)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module CableComponent (358)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
+[2019.02.07-15.26.31:415][506]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
+[2019.02.07-15.26.31:420][506]LogModuleManager: Shutting down and abandoning module SourceControl (303)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2019.02.07-15.26.31:421][506]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2019.02.07-15.26.31:521][506]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2019.02.07-15.26.31:621][506]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2019.02.07-15.26.31:621][506]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2019.02.07-15.26.31:621][506]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2019.02.07-15.26.31:621][506]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2019.02.07-15.26.31:621][506]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2019.02.07-15.26.31:621][506]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2019.02.07-15.26.31:622][506]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2019.02.07-15.26.31:622][506]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2019.02.07-15.26.31:623][506]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2019.02.07-15.26.31:623][506]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2019.02.07-15.26.31:623][506]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2019.02.07-15.26.31:625][506]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2019.02.07-15.26.31:625][506]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2019.02.07-15.26.31:625][506]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2019.02.07-15.26.31:625][506]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2019.02.07-15.26.32:354][506]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2019.02.07-15.26.32:355][506]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2019.02.07-15.26.32:355][506]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2019.02.07-15.26.32:355][506]LogModuleManager: Shutting down and abandoning module Media (233)
+[2019.02.07-15.26.32:360][506]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2019.02.07-15.26.32:360][506]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2019.02.07-15.26.32:360][506]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2019.02.07-15.26.32:360][506]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2019.02.07-15.26.32:360][506]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2019.02.07-15.26.32:360][506]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2019.02.07-15.26.32:360][506]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2019.02.07-15.26.32:360][506]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2019.02.07-15.26.32:360][506]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2019.02.07-15.26.32:361][506]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2019.02.07-15.26.32:361][506]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2019.02.07-15.26.32:361][506]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2019.02.07-15.26.32:361][506]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2019.02.07-15.26.32:361][506]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2019.02.07-15.26.32:361][506]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2019.02.07-15.26.32:361][506]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2019.02.07-15.26.32:361][506]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2019.02.07-15.26.32:361][506]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2019.02.07-15.26.32:361][506]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2019.02.07-15.26.32:361][506]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2019.02.07-15.26.32:364][506]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2019.02.07-15.26.32:364][506]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2019.02.07-15.26.32:364][506]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2019.02.07-15.26.32:364][506]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2019.02.07-15.26.32:364][506]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2019.02.07-15.26.32:364][506]LogModuleManager: Shutting down and abandoning module Core (178)
+[2019.02.07-15.26.32:364][506]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2019.02.07-15.26.32:364][506]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2019.02.07-15.26.32:364][506]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2019.02.07-15.26.32:365][506]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2019.02.07-15.26.32:365][506]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2019.02.07-15.26.32:365][506]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2019.02.07-15.26.32:365][506]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2019.02.07-15.26.32:365][506]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2019.02.07-15.26.32:365][506]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2019.02.07-15.26.32:365][506]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2019.02.07-15.26.32:365][506]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.02.07-15.26.32:463][506]LogDerivedDataCache: Shutdown
+[2019.02.07-15.26.32:463][506]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.02.07-15.26.32:463][506]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.02.07-15.26.32:463][506]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2019.02.07-15.26.32:464][506]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.02.07-15.26.32:465][506]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.02.07-15.26.32:465][506]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.02.07-15.26.32:465][506]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9086AA09-4010-317D-5AB9-C8B5E116D4ED%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=9c0493fd4ab6b8bf56d1d4bec31b521d%7Ccfa6f419fd404af49d54d988f52dbb7d%7C5fe1ce94-8a24-479f-998f-b7687d335518&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.02.07-15.26.32:474][506]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.02.07-15.26.32:476][506]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.02.07-15.26.32:476][506]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.02.07-15.26.32:476][506]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.02.07-15.26.32:476][506]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.02.07-15.26.32:476][506]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.02.07-15.26.32:476][506]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.02.07-15.26.32:476][506]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.02.07-15.26.32:477][506]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.02.07-15.26.32:477][506]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.02.07-15.26.32:477][506]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.02.07-15.26.32:477][506]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.02.07-15.26.32:477][506]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.02.07-15.26.32:477][506]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.02.07-15.26.32:477][506]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.02.07-15.26.32:477][506]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.02.07-15.26.32:477][506]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.02.07-15.26.32:477][506]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.02.07-15.26.32:477][506]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.02.07-15.26.32:480][506]LogExit: Exiting.
+[2019.02.07-15.26.32:491][506]Log file closed, 02/07/19 15:26:32
