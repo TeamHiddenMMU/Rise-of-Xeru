@@ -1,0 +1,11 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{BBB4D272-4574-31D7-29AF-7A82C0C33FCF}",
+	"Category": "",
+	"Description": "",
+	"TargetPlatforms": [
+		"IOS",
+		"Android",
+		"WindowsNoEditor"
+	]
+}
