@@ -16,4 +16,4 @@ Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll	2018-11-28T14:37:52.70
 Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll	2018-11-28T14:38:02.752Z
 Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll	2018-11-28T14:38:02.753Z
 Engine/Binaries/ThirdParty/OpenVR/OpenVRv1_0_10/Win64/openvr_api.dll	2018-11-28T14:37:53.110Z
-RiseOfXeru.exe	2019-03-19T19:56:55.616Z
+RiseOfXeru.exe	2019-03-19T22:06:37.174Z
