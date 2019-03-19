@@ -1,1 +1,0 @@
-../../../RiseOfXeru/RiseOfXeru.uproject  /Game/Game/Maps/MainMenu -Messaging -SessionId=AB723BCB4CDB7533D9162890B2DF92A1 -SessionOwner="samre" -SessionName="Launch On Device" -iterative
